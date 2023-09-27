@@ -8,11 +8,12 @@ public class QuadraticEquation {
 
     public int quantityRoots() {
 
-        if (delta == 0) {
+
+        if (delta() == 0) {
 
             return 1;
 
-        } else if (delta > 0) {
+        } else if (delta() > 0) {
 
             return 2;
         }
