@@ -7,15 +7,16 @@ public class QuadraticEquation {
     double delta = delta();
 
     public int quantityRoots() {
-        int resQuantity = 0;
+
         if (delta == 0) {
-            return resQuantity = 1;
+
+            return 1;
+
         } else if (delta > 0) {
-            return resQuantity = 2;
-        } else if (delta < 0) {
-            return resQuantity = 0;
+
+            return 2;
         }
-        return resQuantity;
+        return 0;
     }
 
     public double delta() {
@@ -24,7 +25,7 @@ public class QuadraticEquation {
     }
 
     public void display() {
-        System.out.println(a + "*(x*x)" + b + "*x+" + c + "=0");
+        System.out.println(a + "*(x*x)+" + b + "*x+" + c + "=0");
     }
 
     public QuadraticEquation(double a, double b, double c) {

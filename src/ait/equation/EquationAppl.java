@@ -7,6 +7,7 @@ public class EquationAppl {
         QuadraticEquation quadraticEquation1=new QuadraticEquation(2,2,2);
         QuadraticEquation quadraticEquation2=new QuadraticEquation(5,5,5);
         QuadraticEquation quadraticEquation3=new QuadraticEquation(6,7,-100);
+
         quadraticEquation1.display();
         System.out.println("D = "+quadraticEquation1.delta());
         System.out.println("The number of solutions is "+quadraticEquation1.quantityRoots());
@@ -21,5 +22,6 @@ public class EquationAppl {
         System.out.println("D = "+quadraticEquation3.delta());
         System.out.println("The number of solutions is "+quadraticEquation3.quantityRoots());
         System.out.println("===============================================================");
+
     }
 }
